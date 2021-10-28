@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	width: 1920px;
+	margin: 0px auto;
+	font-family: sans-serif;
+}
+header {
+	max-width: 100%;
+	height: 100px;
+	
+
+}
+header .top-menu {
+	display: flex;
+}
+header .top-menu .logo {
+	color: #3cb878;
+	padding: 30px 0px 0px 50px;
+}
+header .top-menu .menu ul  {
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 35px;
+	margin-left: 250px;
+	margin-right: 450px; 
+}
+header .top-menu .menu ul li {
+	display: inline-block;
+	
+
+}
+header .top-menu .menu a {
+	text-decoration: none;
+	font-size: 1rem;
+	padding: 0px 20px 0px 20px;
+	color: black;
+
+}
+header .top-menu .menu  li:nth-child(1) a{
+	color: #3cb878;
+}
+header .top-menu .menu ul a:hover{
+	color: #3cb878;
+	
+}
+
+
+header .top-menu .system ul  {
+	display: flex;
+	list-style-type: none;
+	margin-top: 35px;
+	margin-right: 10px; 
+}
+header .top-menu .system ul li {
+	display: block;
+	padding: 0px 0px 0px 20px;
+}
+.post1 {
+	max-width: 100%;
+	height: 800px; 
+	background-image: url(./img/banner.jpg);
+
+}
+.post1 .text {
+	padding-top: 250px;
+	padding-left: 240px;
+	font-size: 2rem;
+	font-family: tomato;
+
+}
+#post2 {
+	margin-top:100px;
+	height: 615px;
+}
+#post2 .container {
+	
+	display: flex;
+}
+#post2 .container article {
+	width: 20%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#post2 .container article p {
+	color: #3cb878;
+	
+}
+#post2 .container article div {
+	margin-top: 10px;
+}
+#post2 .container article .best {
+	margin-top: 150px;
+}
+#post2 .container article .best p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#post3 {
+	height: 200px;
+	background: #f5f6f9;
+}
+#post3 .container {
+	display: flex;
+	
+}
+#post3 .container article {
+	width: 26%;
+	text-align: center;
+	padding-top:50px;
+}
+#post3 .container article h3 {
+	margin-top: 20px;
+}
+#post4 {
+	height: 640px;
+}
+#post4 .container {
+	display: flex;
+	background: #2e3348; 
+}
+#post4 .container article{
+	width: 34%;
+	text-align: center;
+	height: 600px;
+	padding-top: 200px;
+	
+}
+#post4 .container .two {
+	background-color: #34394f;
+}
+#post5 {
+	height: 1400px;
+	margin-top: 250px;
+}
+#post5 .Title-products {
+	height: 200px;
+	text-align: center;
+}
+
+#post5 .Title-products h3 {
+	padding-top: 80px;
+	font-size: 2.5rem;
+}
+
+#post5 .Title-products p {
+	font-weight: normal;
+	color: #3cb879;
+}
+#post5 .container .cruise {
+	display: flex;
+}
+#post5 .container .cruise article {
+	width: 21%;
+	margin-top: 50px;
+}
+#post5 .container .cruise article p {
+	padding-top: 10px;
+	color: #7dd0a5;
+}
+#post5 .container .cruise article div {
+	padding-top: 20px;
+}
+#post6 {
+	height: 200px;
+}
+#post6 .container {
+	display: flex;
+}
+#post6 .container article {
+	width: 51%;
+}
+.get {
+	background-image: url(./img/bgform.jpg);
+	color: #fff;
+	text-align: center;
+	width: 50%;
+	height: 200px;
+}
+.get h2 {
+	padding-top: 37px;
+	font-size: 1.7rem;
+}
+
+.get p {
+	padding: 0px 190px 0px 190px;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+.get input {
+	width:260px; 
+	height: 40px;
+	border: 0px;
+}
+.get button {
+	height: 40px;
+	background-color: green;
+	border:none;
+	margin-left: 10px;
+}
+.brand {
+	padding-top: 20px;
+}
+footer {
+	height: 50px;
+	background-color: black;
+	color: #fff;
+}
+
+footer .Container {
+	display: flex;
+}
+
+.Source {
+	font-weight: normal;
+	font-size: 0.9rem;
+	width: 600px;
+	text-align: center;
+	color: #606060;
+	line-height: 50px;
+}
+
+.Payment img {
+	padding: 12px 0px 0px 600px;   
+}
+
+#post2 .container article img.active1 {
+	
+	background-color:#3cb879; 
+	height: 140px;
+	padding: 5px 5px 5px 5px;
+}
+#post2 .container article img.active1 {
+	position: absolute;
+	top:0%;
+	left: 81%;
+}
+#post2 .container .giay {
+	position: relative;
+
+}
